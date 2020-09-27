@@ -32,6 +32,27 @@ function App() {
             <Route path='/login'>
               <p>Login page</p>
             </Route>
+            <Route path='/trending'>
+
+            </Route>
+            <Route path='/subscription'>
+
+            </Route>
+            <Route path='/library'>
+
+            </Route>
+            <Route path='/history'>
+
+            </Route>
+            <Route path='/yourVideos'>
+
+            </Route>
+            <Route path='watchLater'>
+
+            </Route>
+            <Route path='/likedVideos'>
+              
+            </Route>
         </Switch>
       </div>
     </BrowserRouter>
