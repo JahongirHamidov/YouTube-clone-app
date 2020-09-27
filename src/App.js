@@ -5,6 +5,9 @@ import { MyAppbar } from './Components/MyAppbar/MyAppbar'
 import { Content } from './Components/Content/Content'
 import {Provider} from './globalState'
 
+import {Trending} from './Components/Trending/Trending'
+
+
 function App() {
   return (
     <Provider>
@@ -33,7 +36,7 @@ function App() {
               <p>Login page</p>
             </Route>
             <Route path='/trending'>
-
+              <Trending />
             </Route>
             <Route path='/subscription'>
 
@@ -51,7 +54,7 @@ function App() {
 
             </Route>
             <Route path='/likedVideos'>
-              
+
             </Route>
         </Switch>
       </div>
